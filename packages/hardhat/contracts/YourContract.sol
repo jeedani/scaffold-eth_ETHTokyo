@@ -9,7 +9,7 @@ contract YourContract is Ownable {
 
   event SetPurpose(address sender, string purpose);
 
-  string public purpose = "Building Unstoppable Apps!!!";
+  string public purpose = "Put your ad here";
   uint public price = 0.01 ether;
 
   constructor() payable {
@@ -28,7 +28,7 @@ contract YourContract is Ownable {
       (bool success, ) = msg.sender.call{value: address(this).balance}("");
   }
 
-  
+
   // to support receiving ETH by default
   receive() external payable {}
   fallback() external payable {}
