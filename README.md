@@ -1,3 +1,14 @@
+# ETHTokyo 2023
+This is a hackathon project built @ETHTokyo.
+
+miniBillBoard allows anyone to post their keywords on the BillBoard smart contract.
+
+The price of posting the keyword increases 5% every time a new keyword is posted. Anyone can overwrite the keyword if they pay the price.
+
+Use cases of the board includes marketing messages, things to celebrate, and anything you want to share with the community!
+
+This project was built using Scaffold-ETH
+
 # 🏗 Scaffold-ETH
 
 > everything you need to build on Ethereum! 🚀
