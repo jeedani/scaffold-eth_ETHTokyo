@@ -32,6 +32,13 @@ export const NETWORKS = {
     blockExplorer: "",
     rpcUrl: localRpcUrl,
   },
+  scrollAlpha: {
+    name: "scrollAlpha",
+    color: "#e9d0b8",
+    chainId: 534353,
+    rpcUrl: "https://alpha-rpc.scroll.io/l2",
+    blockExplorer: "https://blockscout.scroll.io",
+  },
   mainnet: {
     name: "mainnet",
     color: "#ff8b9e",
